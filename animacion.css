@@ -1,0 +1,1270 @@
+
+body {
+    background-color: black;
+}
+.columns {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    width: 50vw;
+    height: 50vh;
+    background-color: black;
+    gap: 30px;
+}
+
+/*LETTER B ---------------------------------------------------------*/
+
+.column1 {
+    grid-row: 1/5;
+    grid-column: 1/2;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(8, 1fr);
+}
+
+.square1 {
+    grid-row: 3/4;
+    grid-column: 4/5;
+    animation: change-color 0.5s linear forwards 0.5s;
+}
+
+@keyframes change-color {
+    0% {
+    background-color: black; 
+    }
+    100% {
+    background-color: rgb(129, 25, 25);
+    }
+}
+
+.square2 {
+    grid-row: 2/3;
+    grid-column: 4/5;
+    animation: change-color 0.5s linear forwards 0.65s;
+}
+
+@keyframes change-color {
+    0% {
+    background-color: black; 
+    }
+    100% {
+    background-color: white;
+    }
+}
+
+/* .square3 {
+    grid-row: 1/2;
+    grid-column: 4/5;
+    background-color: white;
+}  */
+
+.square4 {
+    grid-row: 1/2;
+    grid-column: 3/4;
+    animation: change-color 0.5s linear forwards 0.8s;
+}
+
+@keyframes change-color {
+    0% {
+    background-color: black; 
+    }
+    100% {
+    background-color: white;
+    }
+}
+
+.square5 {
+    grid-row: 1/2;
+    grid-column: 2/3;
+    animation: change-color 0.5s linear forwards 1.05s;
+}
+
+@keyframes change-color {
+    0% {
+    background-color: black; 
+    }
+    100% {
+    background-color: white;
+    }
+}
+
+.square6 {
+    grid-row: 1/2;
+    grid-column: 1/2;
+    animation: change-color 0.5s linear forwards 1.20s;
+}
+
+@keyframes change-color {
+    0% {
+    background-color: black; 
+    }
+    100% {
+    background-color: white;
+    }
+}
+
+.square7 {
+    grid-row: 2/3;
+    grid-column: 1/2;
+    animation: change-color 0.5s linear forwards 1.35s;
+}
+
+@keyframes change-color {
+    0% {
+    background-color: black; 
+    }
+    100% {
+    background-color: white;
+    }
+}
+
+.square8 {
+    grid-row: 3/4;
+    grid-column: 1/2;
+    animation: change-color 0.5s linear forwards 1.5s;
+}
+
+@keyframes change-color {
+    0% {
+    background-color: black; 
+    }
+    100% {
+    background-color: white;
+    }
+}
+
+.square9 {
+    grid-row: 4/5;
+    grid-column: 1/2;
+    animation: change-color 0.5s linear forwards 1.7s;
+}
+
+@keyframes change-color {
+    0% {
+    background-color: black; 
+    }
+    100% {
+    background-color: white;
+    }
+}
+
+.square10 {
+    grid-row: 5/6;
+    grid-column: 1/2;
+    animation: change-color 0.5s linear forwards 1.85s;
+}
+
+@keyframes change-color {
+    0% {
+    background-color: black; 
+    }
+    100% {
+    background-color: white;
+    }
+}
+
+.square11 {
+    grid-row: 6/7;
+    grid-column: 1/2;
+    animation: change-color 0.5s linear forwards 2s;
+}
+
+@keyframes change-color {
+    0% {
+    background-color: black; 
+    }
+    100% {
+    background-color: white;
+    }
+}
+
+.square12 {
+    grid-row: 7/8;
+    grid-column: 1/2;
+    animation: change-color 0.5s linear forwards 2.15s;
+}
+
+@keyframes change-color {
+    0% {
+    background-color: black; 
+    }
+    100% {
+    background-color: white;
+    }
+}
+
+.square13 {
+    grid-row: 8/9;
+    grid-column: 1/2;
+    animation: change-color 0.5s linear forwards 2.3s;
+}
+
+@keyframes change-color {
+    0% {
+    background-color: black; 
+    }
+    100% {
+    background-color: white;
+    }
+}
+
+.square14 {
+    grid-row: 8/9;
+    grid-column: 2/3;
+    animation: change-color 0.5s linear forwards 1.2s;
+}
+
+@keyframes change-color {
+    0% {
+    background-color: black; 
+    }
+    100% {
+    background-color: white;
+    }
+}
+
+.square15 {
+    grid-row: 8/9;
+    grid-column: 3/4;
+    animation: change-color 0.5s linear forwards 1.35s;
+}
+
+@keyframes change-color {
+    0% {
+    background-color: black; 
+    }
+    100% {
+    background-color: white;
+    }
+}
+
+.square16 {
+    grid-row: 8/9;
+    grid-column: 4/5;
+    animation: change-color 0.5s linear forwards 1.5s;
+}
+
+@keyframes change-color {
+    0% {
+    background-color: black; 
+    }
+    100% {
+    background-color: white;
+    }
+}
+
+/* .square17 {
+    grid-row: 8/9;
+    grid-column: 5/6;
+    background-color: white;
+} */
+
+.square18 {
+    grid-row: 7/8;
+    grid-column: 5/6;
+    animation: change-color 0.5s linear forwards 1.65s;
+}
+
+@keyframes change-color {
+    0% {
+    background-color: black; 
+    }
+    100% {
+    background-color: white;
+    }
+}
+
+.square19 {
+    grid-row: 6/7;
+    grid-column: 5/6;
+    animation: change-color 0.5s linear forwards 1.8s;
+}
+
+@keyframes change-color {
+    0% {
+    background-color: black; 
+    }
+    100% {
+    background-color: white;
+    }
+}
+
+.square20 {
+    grid-row: 5/6;
+    grid-column: 5/6;
+    animation: change-color 0.5s linear forwards 1.95s;
+}
+
+@keyframes change-color {
+    0% {
+    background-color: black; 
+    }
+    100% {
+    background-color: white;
+    }
+}
+
+.square21 {
+    grid-row: 4/5;
+    grid-column: 6/7;
+    animation: change-color 0.5s linear forwards 2s;
+}
+
+@keyframes change-color {
+    0% {
+    background-color: black; 
+    }
+    100% {
+    background-color: white;
+    }
+}
+
+.square22 {
+    grid-row: 4/5;
+    grid-column: 5/6;
+    animation: change-color 0.5s linear forwards 2.15s;
+}
+
+@keyframes change-color {
+    0% {
+    background-color: black; 
+    }
+    100% {
+    background-color: white;
+    }
+}
+
+.square23 {
+    grid-row: 4/5;
+    grid-column: 4/5;
+    animation: change-color 0.5s linear forwards 2.3s;
+}
+
+@keyframes change-color {
+    0% {
+    background-color: black; 
+    }
+    100% {
+    background-color: white;
+    }
+}
+
+.square24 {
+    grid-row: 4/5;
+    grid-column: 3/4;
+    animation: change-color 0.5s linear forwards 2.45s;
+}
+
+@keyframes change-color {
+    0% {
+    background-color: black; 
+    }
+    100% {
+    background-color: white;
+    }
+}
+
+/*LETTER O ---------------------------------------------------------*/
+
+.column2 {
+    grid-row: 1/5;
+    grid-column: 2/3; 
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(8, 1fr);
+}
+
+.lettero-square1 {
+    grid-row: 1/2;
+    grid-column: 4/5;
+    animation: change-color 0.5s linear;
+    animation-fill-mode: forwards;
+    animation-delay: 2.15s;
+}
+
+@keyframes change-color {
+    0% {
+        background-color: black; 
+    }
+    100% {
+        background-color: white;
+    }
+}
+
+.lettero-square2 {
+    grid-row: 1/2;
+    grid-column: 3/4;
+    animation: change-color 0.5s linear forwards 2.3s;
+}
+
+@keyframes change-color {
+    0% {
+    background-color: black; 
+    }   
+    100% {
+    background-color: white;
+    }
+}
+
+.lettero-square3 {
+    grid-row: 1/2;
+    grid-column: 2/3;
+    animation: change-color 0.5s linear forwards 2.45s;
+}
+
+@keyframes change-color {
+    0% {
+    background-color: black; 
+    }
+    100% {
+    background-color: white;
+    }
+}
+
+.lettero-square4 {
+    grid-row: 2/3;
+    grid-column: 1/2;
+    animation: change-color 0.5s linear forwards 2.6s;
+}
+
+@keyframes change-color {
+    0% {
+    background-color: black; 
+    }
+    100% {
+    background-color: white;
+    }
+}
+
+.lettero-square5 {
+    grid-row: 3/4;
+    grid-column: 1/2;
+    animation: change-color 0.5s linear forwards 2.75s;
+}
+
+@keyframes change-color {
+    0% {
+    background-color: black; 
+    }
+    100% {
+    background-color: white;
+    }
+}
+
+.lettero-square6 {
+    grid-row: 4/5;
+    grid-column: 1/2;
+    animation: change-color 0.5s linear forwards 2.9s;
+}
+
+@keyframes change-color {
+    0% {
+    background-color: black; 
+    }
+    100% {
+    background-color: white;
+    }
+}
+
+.lettero-square7 {
+    grid-row: 5/6;
+    grid-column: 1/2;
+    animation: change-color 0.5s linear forwards 3.05s;
+}
+
+@keyframes change-color {
+    0% {
+    background-color: black; 
+    }
+    100% {
+    background-color: white;
+    }
+}
+
+.lettero-square8 {
+    grid-row: 6/7;
+    grid-column: 1/2;
+    animation: change-color 0.5s linear forwards 3.2s;
+}
+
+@keyframes change-color {
+    0% {
+    background-color: black; 
+    }
+    100% {
+    background-color: white;
+    }
+}
+
+.lettero-square9 {
+    grid-row: 7/8;
+    grid-column: 1/2;
+    animation: change-color 0.5s linear forwards 3.35s;
+}
+
+@keyframes change-color {
+    0% {
+    background-color: black; 
+    }
+    100% {
+    background-color: white;
+    }
+}
+
+.lettero-square10 {
+    grid-row: 8/9;
+    grid-column: 2/3;
+    animation: change-color 0.5s linear forwards 3.5s;
+}
+
+@keyframes change-color {
+    0% {
+    background-color: black; 
+    }
+    100% {
+    background-color: white;
+    }
+}
+
+.lettero-square11 {
+    grid-row: 8/9;
+    grid-column: 3/4;
+    animation: change-color 0.5s linear forwards 3.75s;
+}
+
+@keyframes change-color {
+    0% {
+    background-color: black; 
+    }
+    100% {
+    background-color: white;
+    }
+}
+
+.lettero-square12 {
+    grid-row: 8/9;
+    grid-column: 4/5;
+    animation: change-color 0.5s linear forwards 2.75s;
+}
+
+@keyframes change-color {
+    0% {
+    background-color: black; 
+    }
+    100% {
+    background-color: white;
+    }
+}
+
+.lettero-square13 {
+    grid-row: 7/8;
+    grid-column: 5/6;
+    animation: change-color 0.5s linear forwards 2.9s;
+}
+
+@keyframes change-color {
+    0% {
+    background-color: black; 
+    }
+    100% {
+    background-color: white;
+    }
+}
+
+.lettero-square14 {
+    grid-row: 6/7;
+    grid-column: 5/6;
+    animation: change-color 0.5s linear forwards 3.05s;
+}
+
+@keyframes change-color {
+    0% {
+    background-color: black; 
+    }
+    100% {
+    background-color: white;
+    }
+}
+
+.lettero-square15 {
+    grid-row: 6/5;
+    grid-column: 5/6;
+    animation: change-color 0.5s linear forwards 3.2s;
+}
+
+@keyframes change-color {
+    0% {
+    background-color: black; 
+    }
+    100% {
+    background-color: white;
+    }
+}
+
+.lettero-square16 {
+    grid-row: 4/5;
+    grid-column: 5/6;
+    animation: change-color 0.5s linear forwards 3.35s;
+}
+
+@keyframes change-color {
+    0% {
+    background-color: black; 
+    }
+    100% {
+    background-color: white;
+    }
+}
+
+.lettero-square17 {
+    grid-row: 3/4;
+    grid-column: 5/6;
+    animation: change-color 0.5s linear forwards 3.5s;
+}
+
+@keyframes change-color {
+    0% {
+    background-color: black; 
+    }
+    100% {
+    background-color: white;
+    }
+}
+
+.lettero-square18 {
+    grid-row: 2/3;
+    grid-column: 5/6;
+    animation: change-color 0.5s linear forwards 3.75s;
+}
+
+@keyframes change-color {
+    0% {
+    background-color: black; 
+    }
+    100% {
+    background-color: white;
+    }
+}
+
+
+/*LETTER R ---------------------------------------------------------*/
+
+.column3 {
+    grid-row: 1/5;
+    grid-column: 3/4;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(8, 1fr);
+}
+
+.letterr-square1 {
+    grid-row: 8/9;
+    grid-column: 1/2;
+    animation: change-color 0.5s linear forwards 3.7s;
+}
+
+@keyframes change-color {
+    0% {
+    background-color: black; 
+    }
+    100% {
+    background-color: white;
+    }
+}
+
+.letterr-square2 {
+    grid-row: 7/8;
+    grid-column: 1/2;
+    animation: change-color 0.5s linear forwards 3.85s;
+}
+
+@keyframes change-color {
+    0% {
+    background-color: black; 
+    }
+    100% {
+    background-color: white;
+    }
+}
+
+.letterr-square3 {
+    grid-row: 6/7;
+    grid-column: 1/2;
+    animation: change-color 0.5s linear forwards 4s;
+}
+
+@keyframes change-color {
+    0% {
+    background-color: black; 
+    }
+    100% {
+    background-color: white;
+    }
+}
+
+.letterr-square4 {
+    grid-row: 5/6;
+    grid-column: 1/2;
+    animation: change-color 0.5s linear forwards 4.15s;
+}
+
+@keyframes change-color {
+    0% {
+    background-color: black; 
+    }
+    100% {
+    background-color: white;
+    }
+}
+
+.letterr-square5 {
+    grid-row: 4/5;
+    grid-column: 1/2;
+    animation: change-color 0.5s linear forwards 4.3s;
+}
+
+@keyframes change-color {
+    0% {
+    background-color: black; 
+    }
+    100% {
+    background-color: white;
+    }
+}
+
+.letterr-square6 {
+    grid-row: 3/4;
+    grid-column: 1/2;
+    animation: change-color 0.5s linear forwards 4.45s;
+}
+
+@keyframes change-color {
+    0% {
+    background-color: black; 
+    }
+    100% {
+    background-color: white;
+    }
+}
+
+.letterr-square7 {
+    grid-row: 2/3;
+    grid-column: 1/2;
+    animation: change-color 0.5s linear forwards 4.6s;
+}
+
+@keyframes change-color {
+    0% {
+    background-color: black; 
+    }
+    100% {
+    background-color: white;
+    }
+}
+
+.letterr-square8 {
+    grid-row: 1/2;
+    grid-column: 1/2;
+    animation: change-color 0.5s linear forwards 4.75s;
+}
+
+@keyframes change-color {
+    0% {
+    background-color: black; 
+    }
+    100% {
+    background-color: white;
+    }
+}
+
+.letterr-square9 {
+    grid-row: 1/2;
+    grid-column: 2/3;
+    animation: change-color 0.5s linear forwards 4.9s;
+}
+
+@keyframes change-color {
+    0% {
+    background-color: black; 
+    }
+    100% {
+    background-color: white;
+    }
+}
+
+.letterr-square10 {
+    grid-row: 1/2;
+    grid-column: 3/4;
+    animation: change-color 0.5s linear forwards 5.3s;
+}
+
+@keyframes change-color {
+    0% {
+    background-color: black; 
+    }
+    100% {
+    background-color: white;
+    }
+}
+
+.letterr-square11 {
+    grid-row: 1/2;
+    grid-column: 4/5;
+    animation: change-color 0.5s linear forwards 5.15s;
+}
+
+@keyframes change-color {
+    0% {
+    background-color: black; 
+    }
+    100% {
+    background-color: white;
+    }
+}
+
+.letterr-square12 {
+    grid-row: 2/3;
+    grid-column: 5/6;
+    animation: change-color 0.5s linear forwards 5s;
+}
+
+@keyframes change-color {
+    0% {
+    background-color: black; 
+    }
+    100% {
+    background-color: white;
+    }
+}
+
+.letterr-square13 {
+    grid-row: 3/4;
+    grid-column: 5/6;
+    animation: change-color 0.5s linear forwards 4.85s;
+}
+
+@keyframes change-color {
+    0% {
+    background-color: black; 
+    }
+    100% {
+    background-color: white;
+    }
+}
+
+.letterr-square14 {
+    grid-row: 4/5;
+    grid-column: 2/3;
+    animation: change-color 0.5s linear forwards 4.7s;
+}
+
+@keyframes change-color {
+    0% {
+    background-color: black; 
+    }
+    100% {
+    background-color: white;
+    }
+}
+
+.letterr-square15 {
+    grid-row: 4/5;
+    grid-column: 3/4;
+    animation: change-color 0.5s linear forwards 4.55s;
+}
+
+@keyframes change-color {
+    0% {
+    background-color: black; 
+    }
+    100% {
+    background-color: white;
+    }
+}
+
+.letterr-square16 {
+    grid-row: 4/5;
+    grid-column: 4/5;
+    animation: change-color 0.5s linear forwards 4.4s;
+}
+
+@keyframes change-color {
+    0% {
+    background-color: black; 
+    }
+    100% {
+    background-color: white;
+    }
+}
+
+.letterr-square17 {
+    grid-row: 5/6;
+    grid-column: 5/6;
+    animation: change-color 0.5s linear forwards 4.25s;
+}
+
+@keyframes change-color {
+    0% {
+    background-color: black; 
+    }
+    100% {
+    background-color: white;
+    }
+}
+
+.letterr-square18 {
+    grid-row: 6/7;
+    grid-column: 5/6;
+    animation: change-color 0.5s linear forwards 4.1s;
+}
+
+@keyframes change-color {
+    0% {
+    background-color: black; 
+    }
+    100% {
+    background-color: white;
+    }
+}
+
+.letterr-square19 {
+    grid-row: 7/8;
+    grid-column: 5/6;
+    animation: change-color 0.5s linear forwards 3.95s;
+}
+
+@keyframes change-color {
+    0% {
+    background-color: black; 
+    }
+    100% {
+    background-color: white;
+    }
+}
+
+.letterr-square20 {
+    grid-row: 8/9;
+    grid-column: 5/6;
+    animation: change-color 0.5s linear forwards 3.8s;
+}
+
+@keyframes change-color {
+    0% {
+    background-color: black; 
+    }
+    100% {
+    background-color: white;
+    }
+}
+
+
+/*LETTER N ---------------------------------------------------------*/
+
+.column4 {
+    grid-row: 1/5;
+    grid-column: 4/5;
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: repeat(8, 1fr);
+}
+
+.lettern-square1 {
+    grid-row: 8/9;
+    grid-column: 1/2;
+    animation: change-color 0.5s linear forwards 4.65s;
+}
+
+@keyframes change-color {
+    0% {
+    background-color: black; 
+    }
+    100% {
+    background-color: white;
+    }
+}
+
+.lettern-square2 {
+    grid-row: 7/8;
+    grid-column: 1/2;
+    animation: change-color 0.5s linear forwards 4.8s;
+}
+
+@keyframes change-color {
+    0% {
+    background-color: black; 
+    }
+    100% {
+    background-color: white;
+    }
+}
+
+
+.lettern-square3 {
+    grid-row: 6/7;
+    grid-column: 1/2;
+    animation: change-color 0.5s linear forwards 4.95s;
+}
+
+@keyframes change-color {
+    0% {
+    background-color: black; 
+    }
+    100% {
+    background-color: white;
+    }
+}
+
+.lettern-square4 {
+    grid-row: 5/6;
+    grid-column: 1/2;
+    animation: change-color 0.5s linear forwards 5.10s;
+}
+
+@keyframes change-color {
+    0% {
+    background-color: black; 
+    }
+    100% {
+    background-color: white;
+    }
+}
+
+.lettern-square5 {
+    grid-row: 4/5;
+    grid-column: 1/2;
+    animation: change-color 0.5s linear forwards 5.25s;
+}
+
+@keyframes change-color {
+    0% {
+    background-color: black; 
+    }
+    100% {
+    background-color: white;
+    }
+}
+
+.lettern-square6 {
+    grid-row: 3/4;
+    grid-column: 1/2;
+    animation: change-color 0.5s linear forwards 5.4s;
+}
+
+@keyframes change-color {
+    0% {
+    background-color: black; 
+    }
+    100% {
+    background-color: white;
+    }
+}
+
+.lettern-square7 {
+    grid-row: 2/3;
+    grid-column: 1/2;
+    animation: change-color 0.5s linear forwards 5.55s;
+}
+
+@keyframes change-color {
+    0% {
+    background-color: black; 
+    }
+    100% {
+    background-color: white;
+    }
+}
+
+.lettern-square8 {
+    grid-row: 1/2;
+    grid-column: 1/2;
+    animation: change-color 0.5s linear forwards 5.7s;
+}
+
+@keyframes change-color {
+    0% {
+    background-color: black; 
+    }
+    100% {
+    background-color: white;
+    }
+}
+
+.lettern-square9 {
+    grid-row: 2/3;
+    grid-column: 2/3;
+    animation: change-color 0.5s linear forwards 5.85s;
+}
+
+@keyframes change-color {
+    0% {
+    background-color: black; 
+    }
+    100% {
+    background-color: white;
+    }
+}
+
+.lettern-square10 {
+    grid-row: 3/4;
+    grid-column: 3/4;
+    animation: change-color 0.5s linear forwards 6s;
+}
+
+@keyframes change-color {
+    0% {
+    background-color: black; 
+    }
+    100% {
+    background-color: white;
+    }
+}
+
+.lettern-square11 {
+    grid-row: 4/5;
+    grid-column: 4/5;
+    animation: change-color 0.5s linear forwards 6.15s;
+}
+
+@keyframes change-color {
+    0% {
+    background-color: black; 
+    }
+    100% {
+    background-color: white;
+    }
+}
+
+.lettern-square12 {
+    grid-row: 5/6;
+    grid-column: 5/6;
+    animation: change-color 0.5s linear forwards 6.3s;
+}
+
+@keyframes change-color {
+    0% {
+    background-color: black; 
+    }
+    100% {
+    background-color: white;
+    }
+}
+
+.lettern-square13 {
+    grid-row: 1/2;
+    grid-column: 6/7;
+    animation: change-color 0.5s linear forwards 4.95s;
+}
+
+@keyframes change-color {
+    0% {
+    background-color: black; 
+    }
+    100% {
+    background-color: white;
+    }
+}
+
+.lettern-square14 {
+    grid-row: 2/3;
+    grid-column: 6/7;
+    animation: change-color 0.5s linear forwards 5.1s;
+}
+
+@keyframes change-color {
+    0% {
+    background-color: black; 
+    }
+    100% {
+    background-color: white;
+    }
+}
+
+.lettern-square15 {
+    grid-row: 3/4;
+    grid-column: 6/7;
+    animation: change-color 0.5s linear forwards 5.25s;
+}
+
+@keyframes change-color {
+    0% {
+    background-color: black; 
+    }
+    100% {
+    background-color: white;
+    }
+}
+
+.lettern-square16 {
+    grid-row: 4/5;
+    grid-column: 6/7;
+    animation: change-color 0.5s linear forwards 5.4s;
+}
+
+@keyframes change-color {
+    0% {
+    background-color: black; 
+    }
+    100% {
+    background-color: white;
+    }
+}
+
+.lettern-square17 {
+    grid-row: 5/6;
+    grid-column: 6/7;
+    animation: change-color 0.5s linear forwards 5.55s;
+}
+
+@keyframes change-color {
+    0% {
+    background-color: black; 
+    }
+    100% {
+    background-color: white;
+    }
+}
+
+.lettern-square18 {
+    grid-row: 6/7;
+    grid-column: 6/7;
+    animation: change-color 0.5s linear forwards 5.7s;
+}
+
+@keyframes change-color {
+    0% {
+    background-color: black; 
+    }
+    100% {
+    background-color: white;
+    }
+}
+
+.lettern-square19 {
+    grid-row: 7/8;
+    grid-column: 6/7;
+    animation: change-color 0.5s linear forwards 5.85s;
+}
+
+@keyframes change-color {
+    0% {
+    background-color: black; 
+    }
+    100% {
+    background-color: white;
+    }
+}
+
+.lettern-square20 {
+    grid-row: 8/9;
+    grid-column: 6/7;
+    animation: change-color 0.5s linear forwards 6s;
+}
+
+@keyframes change-color {
+    0% {
+    background-color: black; 
+    }
+    100% {
+    background-color: white;
+    }
+}
